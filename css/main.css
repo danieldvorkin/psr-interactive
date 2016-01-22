@@ -1,19 +1,20 @@
 .div-block {
   background-color:grey;
-  width:85px;
+  width:80px;
   height:28px;
   cursor:pointer;
 }
 .div-block.active {
   background-color:red;
-  width:85px;
+  width:80px;
   height:28px;
   cursor:pointer;
 }
 .year {
   color:white;
   text-align:center;
-  padding:5px;
+  padding:3px;
+  vertical-align: middle;
 }
 hr {
   margin-top: 15px !important;
@@ -28,6 +29,11 @@ hr {
   height: 300px;
   width: auto;
   background-color: grey;
+}
+
+.content h1, .content p{
+  padding:20px;
+  color: white;
 }
 
 #about-team {
