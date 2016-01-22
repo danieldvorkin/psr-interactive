@@ -1,0 +1,62 @@
+.div-block {
+  background-color:grey;
+  width:85px;
+  height:28px;
+  cursor:pointer;
+}
+.div-block.active {
+  background-color:red;
+  width:85px;
+  height:28px;
+  cursor:pointer;
+}
+.year {
+  color:white;
+  text-align:center;
+  padding:5px;
+}
+hr {
+  margin-top: 15px !important;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px dashed #020202 !important;
+}
+
+.picture, .content {
+  height: 300px;
+  width: auto;
+  background-color: grey;
+}
+
+#about-team {
+  margin-top: -15px;
+  margin-left:-30px;
+}
+
+.picture-block {
+  height: 220px;
+  width: 80%;
+  background-color: grey;
+  margin:15px;
+  cursor: pointer;
+}
+
+.info {
+  height:470px;
+  width:auto;
+  background-color: grey;
+  margin:15px;
+}
+
+#about-team {
+  width:90%;
+}
+
+.picture.hide {
+  display:none;
+}
+
+.picture.active {
+  text-align: center;
+  display:block;
+}
