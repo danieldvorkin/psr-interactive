@@ -1,8 +1,8 @@
 $(function(){
   $('.pics').find('> div:eq(0)').nextAll().hide;
 
-  $('.col-lg-1 .div-block, .picture-block').on('click', function(){
-    var i = $('.col-lg-1 .div-block, .picture-block').index(this);
+  $('.one.column .div-block, .picture-block').on('click', function(){
+    var i = $('.one.column .div-block, .picture-block').index(this);
 
     $('.div-block').removeClass('active');
     $(this).addClass('active');

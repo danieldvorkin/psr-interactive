@@ -21,7 +21,9 @@ hr {
   border: 0;
   border-top: 1px dashed #020202 !important;
 }
-
+.hide {
+  display:none;
+}
 .picture, .content {
   height: 300px;
   width: auto;
@@ -32,6 +34,14 @@ hr {
   margin-top: -15px;
   margin-left:-30px;
 }
+
+.pics img {
+  height:300px;
+  width: 515px;
+}
+
+
+
 
 .picture-block {
   height: 220px;
