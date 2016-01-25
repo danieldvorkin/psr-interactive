@@ -1,0 +1,62 @@
+table {
+  border-collapse: separate;
+  width:100%;
+}
+tr:nth-child(2) td{
+  padding-top:15px;
+}
+
+td {
+  vertical-align: bottom;
+  text-align:center;
+}
+
+td img {
+  width:200px;
+  height:200px;
+  border:none;
+
+}
+
+.picture-block {
+  position:relative;
+  width:200px;
+  height:200px;
+  background-color: red;
+  display:inline-block;
+  opacity:0.5;
+  cursor:pointer;
+  transition: all 0.4s ease-in-out;
+}
+.picture-block.selected {
+  opacity:1;
+}
+
+.agent-label {
+  position:relative;
+  width:200px;
+  background-color:grey;
+  display:inline-block;
+  padding:5px;
+  margin-top:-3px;
+}
+.content {
+  vertical-align: top;
+  width:300px;
+  background-color:grey;
+  transition: all 0.4s ease-in-out;
+}
+.content-title {
+  margin: 20px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-info {
+  margin-top:90%;
+  margin-left:20px;
+  text-align:left;
+  vertical-align:bottom;
+}
+
+.hide { display:none; }

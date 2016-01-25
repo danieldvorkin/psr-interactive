@@ -93,39 +93,3 @@ hr {
   transition: all 0.4s ease-in-out;
   transition-delay: 0.2s;
 }
-
-
-
-
-
-
-
-
-
-.picture-block {
-  height: 220px;
-  width: 80%;
-  background-color: grey;
-  margin:15px;
-  cursor: pointer;
-}
-
-.info {
-  height:470px;
-  width:auto;
-  background-color: grey;
-  margin:15px;
-}
-
-#about-team {
-  width:90%;
-}
-
-.picture.hide {
-  display:none;
-}
-
-.picture.active {
-  text-align: center;
-  display:block;
-}
