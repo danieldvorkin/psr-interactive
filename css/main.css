@@ -3,43 +3,102 @@
   width:80px;
   height:28px;
   cursor:pointer;
+  transition: all .4s ease-in-out;
 }
+
 .div-block.active {
   background-color:red;
   width:80px;
   height:28px;
   cursor:pointer;
 }
+
 .year {
   color:white;
   text-align:center;
   padding:3px;
   vertical-align: middle;
 }
+
 hr {
   margin-top: 15px !important;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px dashed #020202 !important;
 }
+
 .hide {
   display:none;
 }
+
 .picture, .content {
   height: 300px;
   width: auto;
   background-color: grey;
+  transition: all .4s ease-in-out;
 }
 
-.content h1, .content p{
+.content h3, .content p{
   padding:20px;
   color: white;
 }
 
+.pics {
+  position:relative;
+  height:300px;
+  width: 515px;
+  background-color: grey;
+}
 .pics img {
   height:300px;
   width: 515px;
 }
+.pics div {
+  position:absolute;
+  top:0;
+  left:0;
+  display:block;
+  height:300px;
+  width: 515px;
+  border: 1px solid black;
+  opacity: 0;
+  background-color:  grey;
+  transition: all 0.2s ease-in-out;
+}
+.pics div.active {
+  opacity: 1;
+  background-color: red;
+  transition: all 0.4s ease-in-out;
+}
+
+.content{
+  position:relative;
+  background-color:grey;
+  width:302px;
+  height:300px;
+}
+
+.content div{
+  position:absolute;
+  width:302px;
+  height:300px;
+  display:block;
+  opacity: 0;
+  background-color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.content div.active{
+  opacity: 1;
+  background-color: grey;
+  transition: all 0.4s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+
+
+
+
 
 
 
