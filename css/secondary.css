@@ -1,63 +1,104 @@
+@media (min-height: 450px) {
+  .picture-block {
+    width: 170px !important;
+  }
+
+  .agent-label {
+    width: 170px !important;
+    font-size: 13px !important;
+  }
+}
+
 html {
   font-family: Helvetica;
 }
+
 table {
   border-collapse: separate;
-  width:100%;
+  width: 100%;
+  border-spacing: 0px;
 }
-tr:nth-child(2) td{
-  padding-top:15px;
+
+tr:nth-child(2) td {
+  padding-top: 15px;
 }
+
 td {
   vertical-align: bottom;
-  text-align:center;
+  text-align: center;
 }
-td img {
-  width:200px;
-  height:200px;
-  border:none;
 
+td img {
+  width: 100%;
+
+  /*height: auto;*/
+  border: none;
 }
-.hide { display:none; }
+
+.hide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+p {
+  /*letter-spacing: 1px;*/
+  font-size: 13px;
+}
+
 .picture-block {
-  position:relative;
-  width:200px;
-  height:200px;
-  background-color: red;
-  display:inline-block;
-  opacity:0.5;
-  cursor:pointer;
+  position: relative;
+  width: 115px;
+  height: auto;
+  display: inline-block;
+  opacity: 0.5;
+  cursor: pointer;
   transition: all 0.4s ease-in-out;
 }
-.picture-block.selected {
-  opacity:1;
+
+.picture-block.selected, .picture-block:hover {
+  opacity: 1;
 }
+
 .agent-label {
-  position:relative;
-  width:200px;
-  background-color:grey;
-  display:inline-block;
-  padding:5px;
-  margin-top:-3px;
-  color:white;
+  position: relative;
+  width: 115px;
+  height: 60px;
+  background-color: grey;
+  display: inline-block;
+  padding: 5px;
+  margin-top: -5px;
+  color: white;
+  font-size: 12px;
 }
+
+.agent-label.selected {
+  background-color: #ee2a24;
+}
+
 .content {
   vertical-align: top;
-  width:300px;
-  background-color:grey;
-
+  width: 300px;
+  background-color: #e6e7e8;
 }
+
+.tags {
+  font-size: 11px;
+}
+
 .content-title {
   margin: 20px;
   text-align: left;
   font-weight: bold;
 }
+
 .content-info {
-  margin-top:90%;
-  margin-left:20px;
-  text-align:left;
-  vertical-align:bottom;
+  margin: 20px;
+  text-align: left;
 }
-.content div.active {
-  transition: all 0.4s ease-in-out;
+
+.content div.active, .info .active {
+  transition: all 1.4s ease-in-out;
 }
