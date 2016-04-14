@@ -30,7 +30,6 @@ td {
 
 td img {
   width: 100%;
-
   /*height: auto;*/
   border: none;
 }
@@ -86,6 +85,10 @@ p {
 
 .tags {
   font-size: 11px;
+}
+
+.funtext {
+  font-style: italic;
 }
 
 .content-title {
